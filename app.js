@@ -35,7 +35,7 @@ function actualizaListaAmigos(){
 
 function sortearAmigo(){
     if(AmigoJugador.length === 0){
-        alert("No hay amigos disponibles para sortear. Agrega al menos tres.");
+        alert("No hay amigos disponibles para sortear. Agrega al menos uno.");
         return;
     }
     const random = Math.floor(Math.random() * AmigoJugador.length);
